@@ -9,7 +9,7 @@ class Fig < Formula
   def install
     libexec.install Dir["*"]
     bin.install_symlink "#{libexec}/bin/fig"
-	man1.install "#{libexec}/docs/fig.1"
+    man1.install_symlink "#{libexec}/docs/fig.1"
   end
 
   test do
