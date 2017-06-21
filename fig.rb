@@ -2,8 +2,8 @@ class Fig < Formula
   desc "Quickly build and deploy configuration profiles."
   homepage "https://github.com/ashur/fig"
   url "https://github.com/ashur/fig.git",
-    :tag => "v0.4.1",
-    :revision => "6326df44c087f21955c3e4d227aed71b1a2ca142"
+    :tag => "v0.4.2",
+    :revision => "93162df67c0eca49a4c213292ea8b4580997741e"
   head "https://github.com/ashur/fig.git"
 
   def install
